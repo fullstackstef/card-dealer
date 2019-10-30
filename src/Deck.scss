@@ -1,0 +1,35 @@
+.Deck {
+    font-family: 'Slabo 27px', serif;
+}
+
+.Deck-cardarea {
+    margin-top: 5rem;
+}
+
+.Deck-title {
+    color: azure;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.Deck-btn {
+    background: none;
+    border: none;
+    outline: none;
+    font: inherit;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    color: #e92b2b;
+    &:hover {
+        color: azure;
+        transition: all 500ms linear;
+    }
+}
+
+.Deck-error {
+    color: azure;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
